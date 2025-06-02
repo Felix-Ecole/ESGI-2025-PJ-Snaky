@@ -23,5 +23,10 @@
     ul {
         list-style: none;
     }
+
+    .dark-mode {
+        background-color: #121212;
+        color: var(--color-light);
+    }
 }
 
