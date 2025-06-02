@@ -6,10 +6,10 @@
     :root {
         @each $name, $value in v.$colors {
             --#{$name}: #{$value};
-            --#{$name}-hover: #{color.scale($value, $lightness:15%)};
+            --#{$name}-hover: #{color.scale($value, $lightness: -20%)};
         }
     }
-    
+
     * {
         margin: 0;
         padding: 0;
@@ -33,4 +33,3 @@
         }
     }
 }
-
