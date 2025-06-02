@@ -1,12 +1,7 @@
-const toggleBtn = document.getElementById('dark-toggle');
+document.querySelector("#theme-toggle").onclick = (e) => {
+	e.target.innerText = document.body.classList.contains("dark-mode")
+		? "☀️ Mode clair"
+		: "🌙 Mode sombre";
 
-toggleBtn.addEventListener('click', () => {
-  const body = document.body;
-  body.classList.toggle('dark-mode');
-
-  if (body.classList.contains('dark-mode')) {
-    toggleBtn.textContent = '☀️ Mode clair';
-  } else {
-    toggleBtn.textContent = '🌙 Mode sombre';
-  }
-});
+	document.body.classList.toggle("dark-mode");
+};

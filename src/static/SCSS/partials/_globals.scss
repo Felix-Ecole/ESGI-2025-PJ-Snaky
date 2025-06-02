@@ -27,7 +27,10 @@
 
     .dark-mode {
         background-color: #121212;
-        color: var(--white);
+
+        * {
+            color: var(--white);
+        }
     }
 }
 
