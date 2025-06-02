@@ -1,13 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Base</title>
+		<title>Accueil</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="/static/CSS/main.css">
 	</head>
 	<body>
 		<header>
-
+			<nav class="navbar">
+				<div class="container">
+					<h1>🧀 Snaky</h1>
+					<ul>
+						<li>
+							<a href="#">Accueil</a>
+						</li>
+						<li>
+							<a href="#">Admin</a>
+						</li>
+						<li>
+							<a href="#">Guide</a>
+						</li>
+					</ul>
+				</div>
+				<button id="theme-toggle">🌙 Mode sombre</button>
+			</nav>
 		</header>
 
 		<main>
@@ -15,8 +32,8 @@
 		</main>
 
 		<footer>
-
-			<div style="display: none;">
+			<div id="scripts" style="display: none;">
+				<script src="/static/JS/toggle-dark-mode.js"></script>
 			</div>
 		</footer>
 	</body>

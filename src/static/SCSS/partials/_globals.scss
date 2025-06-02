@@ -1,0 +1,36 @@
+@use "fonts";
+@use "variables" as v;
+@use "sass:color";
+
+@layer base {
+    :root {
+        @each $name, $value in v.$colors {
+            --#{$name}: #{$value};
+            --#{$name}-hover: #{color.scale($value, $lightness:15%)};
+        }
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Orbitron", calibri;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    .dark-mode {
+        background-color: #121212;
+
+        * {
+            color: var(--white);
+        }
+    }
+}
+
