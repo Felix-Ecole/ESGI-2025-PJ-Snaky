@@ -370,8 +370,7 @@ $RECYCLE.BIN/
 .AppleDouble
 .LSOverride
 
-# Icon must end with two \r
-Icon
+
 
 # Thumbnails
 ._*
@@ -399,3 +398,5 @@ Temporary Items
 !.gitsubmodules
 !.github
 
+main.css
+main.css.map
