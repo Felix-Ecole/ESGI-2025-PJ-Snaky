@@ -1,0 +1,92 @@
+[
+	{
+		"title": "SACHET PAPIER",
+		"description": "SACHET PAPIER PISTOLET P2",
+		"weight": 10.00,
+		"img": "https://ilis.be/products/200021000.webp"
+	},
+	{
+		"title": "BOITE CARTON",
+		"description": "Le Boxy Snaky est une box pour enfant munie d'un QR code qui mène vers des jeux exclusifs",
+		"weight": 4.80,
+		"img": "https://ilis.be/products/210220000.webp"
+	},
+	{
+		"title": "HUILE DE FRITURE 25L",
+		"description": "HUILE DE FRITURE 25L en fût",
+		"weight": 25.00,
+		"img": "https://ilis.be/products/070054000.webp"
+	},
+	{
+		"title": "SAUCE ANDALOUSE TIGRE SEAU 10L",
+		"description": "SAUCE ANDALOUSE TIGRE, DELICIEUSEMENT RELEVEE",
+		"weight": 10.00,
+		"img": "https://ilis.be/products/010114000.webp"
+	},
+	{
+		"title": "HALAL KRUMPYBURGER SURGELE",
+		"description": "HALAL KRUMPYBURGER SURGELE 25X115GR",
+		"weight": 2.90,
+		"img": "https://ilis.be/products/040291000.webp"
+	},
+	{
+		"title": "BURGER KRUMPY EXTRA POULET",
+		"description": "Hamburger de poulet composé d'une viande tendre et épicée recouverte de graines de soja croquants",
+		"weight": 2.90,
+		"img": "https://ilis.be/products/040286000.webp"
+	},
+	{
+		"title": "HALAL BOULETTE SURGELE",
+		"description": "",
+		"weight": 3.36,
+		"img": "https://ilis.be/products/040392000.webp"
+	},
+	{
+		"title": "KROKYCROQ",
+		"description": "DELICIEUX BATON DE POULET PANE CROQUANT",
+		"weight": 1.92,
+		"img": "https://ilis.be/products/040748000.webp"
+	},
+	{
+		"title": "KRYSPICHIX FINGERS",
+		"description": "DELICIEUX BATONNETS DE POULET PANE",
+		"weight": 2.28,
+		"img": "https://ilis.be/products/040174000.webp"
+	},
+	{
+		"title": "SNAKY BALLS",
+		"description": "DELICIEUSES BOULETTES DE POULET ENROBEES D'UNE PANURE CROQUANTE",
+		"weight": 1.92,
+		"img": "https://ilis.be/products/040144000.webp"
+	},
+	{
+		"title": "CERVELAS MAXI SURGELE",
+		"description": "CERVELAS MAXI SURGELE 24X200GR",
+		"weight": 4.80,
+		"img": "https://ilis.be/products/040739000.webp"
+	},
+	{
+		"title": "BROCHETTE ARDENNAISE SURGELE",
+		"description": "BROCHETTE ARDENNAISE SURGELE 30X105GR",
+		"weight": 3.15,
+		"img": "https://ilis.be/products/040561000.webp"
+	},
+	{
+		"title": "BROCHETTE SCHASLICK SURGELE",
+		"description": "BROCHETTE SCHASLICK SURGELE 5X4X200GR",
+		"weight": 1.00,
+		"img": "https://ilis.be/products/013233000.webp"
+	},
+	{
+		"title": "BROCHETTE SCHASLICK SURGELE",
+		"description": "Brochette surgelée, viande marinée, 140 gr par brochette",
+		"weight": 0.70,
+		"img": "https://ilis.be/products/013232000.webp"
+	},
+	{
+		"title": "BROCHETTE FRAIS",
+		"description": "41X130GR SWANN",
+		"weight": 5.33,
+		"img": "https://ilis.be/products/180918000.webp"
+	}
+]
