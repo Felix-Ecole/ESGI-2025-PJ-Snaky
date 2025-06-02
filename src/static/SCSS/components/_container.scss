@@ -1,0 +1,16 @@
+@use "../partials/variables" as variables;
+
+@layer components {
+    .container{
+        margin: 0 2rem;
+        @each $name, $breakpoint in variables.$breakpoints {
+            @media (width > $breakpoint) {
+                margin: 0 2rem;
+                @if($name == 'sm'){
+                    margin: auto;
+                }
+                max-width: calc($breakpoint - 4rem);
+            }
+        }
+    }
+}

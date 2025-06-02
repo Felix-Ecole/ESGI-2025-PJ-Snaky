@@ -1,0 +1,28 @@
+@use "../partials/mixins" as m;
+@use "../partials/function" as f;
+@use "../partials/variables" as v;
+
+@layer components {
+    .navbar {
+        padding: f.rem(16) f.rem(32);
+        max-width: 100%;
+        @include m.flexbox($align: center, $gap: f.rem(30));
+        background-color: var(--nav);
+
+        h1 {
+            margin: auto 0;
+        }
+
+        ul {
+            margin: auto 0;
+            display: flex;
+            gap: f.rem(16);
+        }
+
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
