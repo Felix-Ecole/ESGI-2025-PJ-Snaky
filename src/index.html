@@ -22,13 +22,40 @@
 		</header>
 
 		<main>
-
+          <form class="form">
+				<div class="form__group">
+					<label class="form__label" for="email">Email</label>
+					<input
+						type="email"
+						class="form__input"
+						id="email"
+						placeholder="exemple@snaky.com"
+					/>
+				</div>
+				<div class="form__group">
+					<label class="form__label" for="menu">Choisissez un menu</label>
+					<select class="form__select" id="menu">
+						<option value="classic">Menu Classique</option>
+						<option value="veggie">Menu Végétarien</option>
+					</select>
+				</div>
+				<button type="submit" class="btn btn--primary">Valider</button>
+				<button type="button" class="btn btn--primary">Commander</button>
+                <button type="button" class="btn btn--secondary">Voir le menu</button>
+			</form>
 		</main>
 
-		<footer>
+		<footer class="footer">
 			<div id="scripts" style="display: none;">
 				<script src="/static/JS/toggle-dark-mode.js"></script>
 			</div>
+			
+				<div class="footer__content">
+					<p class="footer__text">
+						&copy; 2025 Snaky. Tous droits réservés.
+					</p>
+				</div>
+			
 		</footer>
 	</body>
 </html>

@@ -1,0 +1,49 @@
+@use "../partials/mixins" as m;
+@use "../partials/functions" as f;
+@use "../partials/variables" as v;
+
+@layer components {
+  .form {
+    width: 100%;
+    max-width: f.rem(400);
+    margin: 0 auto;
+    padding: f.rem(16);
+    background-color: var(--white);
+    border-radius: f.rem(8);
+    box-shadow: 0 0 f.rem(10) rgba(0, 0, 0, 0.1);
+
+    &__group {
+      margin-bottom: f.rem(16);
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__label {
+      margin-bottom: f.rem(8);
+      font-weight: bold;
+      color: var(--black);
+    }
+
+    &__input,
+    &__select {
+      padding: f.rem(10);
+      border: 1px solid var(--black);
+      border-radius: f.rem(4);
+      font-size: f.rem(14);
+    }
+
+    .btn {
+      padding: f.rem(10) f.rem(20);
+      border: none;
+      border-radius: f.rem(4);
+      background-color: var(--nav);
+      color: var(--white);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .btn--primary:hover {
+      background-color: darken(map-get(v.$colors, 'nav'), 10%);
+    }
+  }
+}
