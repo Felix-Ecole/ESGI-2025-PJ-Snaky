@@ -1,10 +1,11 @@
-$breakpoints : (
-    'sm': 576px,
+$breakpoints: (
+    'xs': 360px,
+    'sm': 480px,
     'md': 768px,
-    'lg': 992px,
-    'xl': 1200px,
-    'xxl': 1400px,
-);
+    'lg': 1024px,
+    'xl': 1280px,
+    'xxl': 1440px
+  );
 
 $colors : (
     'nav': #ff0808,
@@ -12,5 +13,5 @@ $colors : (
     'dark-background': #121212,
     'white': #fff,
     'black': #000,
-    
+    'dark-mode-button': #3af24b
 );

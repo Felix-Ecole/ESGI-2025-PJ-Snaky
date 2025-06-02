@@ -9,6 +9,7 @@
             --#{$name}-hover: #{color.scale($value, $lightness:15%)};
         }
     }
+    
     * {
         margin: 0;
         padding: 0;
@@ -26,7 +27,7 @@
 
     .dark-mode {
         background-color: #121212;
-        color: var(--color-light);
+        color: var(--white);
     }
 }
 
