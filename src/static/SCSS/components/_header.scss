@@ -29,6 +29,11 @@
             border: solid thin var(--black);
             border-radius: f.rem(5);
             background-color: var(--dark-mode-button);
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: var(--dark-mode-button-hover);
         }
     }
 }
