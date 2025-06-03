@@ -1,4 +1,8 @@
 @use "partials/layers";
 @use "partials/globals";
+@use "partials/utilities";
 
 @use "components/navbar";
+@use "components/card";
+@use "components/container";
+@use "components/alert";

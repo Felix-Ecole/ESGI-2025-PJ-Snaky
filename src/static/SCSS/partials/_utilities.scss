@@ -1,0 +1,36 @@
+@use "variables" as v;
+
+$sides : (
+    b: bottom,
+    t: top,
+    l: left,
+    r: right
+);
+
+@layer utilities {
+    @for $i from 0 through 12 {
+        .m-#{$i} {
+            margin: $i * v.$spacing;
+        }
+        .p-#{$i} {
+            padding: $i * v.$spacing;
+        }
+        @each $name, $value in $sides {
+            .m#{$name}-#{$i} {
+                margin-#{$value}: $i * v.$spacing;
+            }
+            .p#{$name}-#{$i} {
+                padding-#{$value}: $i * v.$spacing;
+            }
+        }
+    }
+
+    @each $name, $value in v.$colors {
+        .bg-#{$name} {
+            background-color: #{$value};
+        }
+        .b-#{$name} {
+            border-color: #{$value};
+        }
+    }
+}

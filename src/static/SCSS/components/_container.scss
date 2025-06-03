@@ -1,4 +1,6 @@
 @use "../partials/variables" as variables;
+@use "../partials/mixins" as m;
+@use "../partials/functions" as f;
 
 @layer components {
     .container{
