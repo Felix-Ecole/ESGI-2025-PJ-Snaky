@@ -4,6 +4,6 @@
     @return calc($value/16) * 1rem;
 }
 
-@function size($key){
+@function size($key) {
     @return map-get(v.$sizes, $key);
 }
