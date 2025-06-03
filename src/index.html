@@ -41,70 +41,41 @@
 
 			<section id="card" class="m-6">
 				<div class="container flex">
-<<<<<<< Updated upstream
 					<article class="card card-xs">
-						<img
-							src="/static/IMG/burger.webp"
-							alt="Burger maison"
-							class="card__img"
-						/>
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">
-								Steak 150g, cheddar, sauce secrète
-							</p>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
 					</article>
 
 					<article class="card card-sm">
-						<img
-							src="/static/IMG/burger.webp"
-							alt="Burger maison"
-							class="card__img"
-						/>
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">
-								Steak 150g, cheddar, sauce secrète
-							</p>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
 					</article>
 
 					<article class="card card-md">
-						<img
-							src="/static/IMG/burger.webp"
-							alt="Burger maison"
-							class="card__img"
-						/>
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">
-								Steak 150g, cheddar, sauce secrète
-							</p>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
 					</article>
 
 					<article class="card card-lg">
-						<img
-							src="/static/IMG/burger.webp"
-							alt="Burger maison"
-							class="card__img"
-						/>
-=======
-					<article class="card card-xl">
 						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
->>>>>>> Stashed changes
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">
-								Steak 150g, cheddar, sauce secrète
-							</p>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
@@ -115,7 +86,7 @@
 			<section id="alert" class="m-6">
 				<div class="container flex">
 					<article class="alert">
-						<button class="delete">×</button>
+						<button class="delete" onclick="closeAlert(this)">×</button>
 						<p>
 							Adipisicing incididunt irure quis occaecat sint ipsum in aliqua proident veniam aliquip sint amet.
 						</p>
@@ -126,11 +97,13 @@
 
 		<footer class="footer">
 			<div id="scripts" style="display: none;">
+				<script src="/static/JS/alert.js"></script>
 				<script src="/static/JS/toggle-dark-mode.js"></script>
 			</div>
 
 			<div class="footer__content">
 				<span class="footer__text">&copy; 2025 Snaky. Tous droits réservés.</span>
 			</div>
+		</footer>
 	</body>
 </html>
