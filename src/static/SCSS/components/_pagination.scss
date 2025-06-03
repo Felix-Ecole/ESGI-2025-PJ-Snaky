@@ -4,5 +4,26 @@
 
 @layer components {
     .pagination {
+        display: flex;
+
+        &__btn {
+            height: f.rem(24); min-width: f.rem(24); line-height: f.rem(24);
+            background-color: var(--nav); color: var(--white);
+            padding: f.rem(10); margin: f.rem(5);
+            font-weight: 600; text-align: center;
+            border: f.rem(2) solid black;
+
+            &:hover {
+                background-color: var(--nav-hover);
+            }
+        }
+
+        &--is-active {
+            background-color: var(--dark-red);
+
+            &:hover {
+                background-color: var(--dark-red-hover);
+            }
+        }
     }
 }
