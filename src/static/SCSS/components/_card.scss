@@ -4,7 +4,7 @@
 
 @layer components {
     .card {
-        margin: auto 0;
+        margin: auto;
         border-radius: f.rem(15);
         overflow: hidden;
         background-color: var(--dark-background);
@@ -12,14 +12,21 @@
         border: solid thin var(--dark-background);
         box-sizing: border-box;
         @include m.flexbox($direction: column, $align: center, $gap: f.rem(10));
+        align-items: center;
+        padding: f.rem(20);
+        width: f.rem(20 * 16);
+
+        .card__img {
+            max-width: inherit;
+            object-fit: cover;
+            width: inherit;
+            margin-top: -#{f.rem(20)};
+            margin-left: -#{f.rem(20)};
+            margin-right: -#{f.rem(20)};
+        }
 
         .card__content {
             @include m.flexbox($direction: column, $align: center, $gap: f.rem(10));
-        }
-
-        img {
-            max-width: inherit;
-            object-fit: cover;
         }
     }
 
@@ -27,16 +34,11 @@
         .card-#{$name} {
             padding: f.rem($value);
             width: f.rem($value * 16);
-            & > img {
-                width: inherit;
+            .card__img {
                 margin-top: -#{f.rem($value)};
                 margin-left: -#{f.rem($value)};
                 margin-right: -#{f.rem($value)};
             }
         }
-    }
-
-    .flex {
-        @include m.flexbox($gap: f.rem(20));
     }
 }

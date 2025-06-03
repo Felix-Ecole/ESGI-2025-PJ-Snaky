@@ -1,6 +1,8 @@
 @use "fonts";
 @use "variables" as v;
 @use "sass:color";
+@use "functions" as f;
+@use "mixins" as m;
 
 @layer base {
     :root {
@@ -31,5 +33,9 @@
         * {
             color: var(--white);
         }
+    }
+
+    .flex {
+        @include m.flexbox($gap: f.rem(20));
     }
 }
