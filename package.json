@@ -4,10 +4,9 @@
 	"description": "Bienvenue chez Snaky, une chaîne fictive de fastfood.",
 	"scripts": {
 		"dev": "vite",
-		"build": "vite build",
 		"preview": "vite preview",
-		"watch": "sass --watch src/static/SCSS/main.scss src/static/CSS/main.css",
-		"compile": "sass src/static/SCSS/main.scss src/static/CSS/main.css"
+		"build": "sass src/static/SCSS/main.scss src/static/CSS/main.css",
+		"watch": "sass --watch src/static/SCSS/main.scss src/static/CSS/main.css"
 	},
 	"author": "",
 	"license": "MIT",
