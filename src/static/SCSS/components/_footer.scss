@@ -1,0 +1,22 @@
+@use "../partials/mixins" as m;
+@use "../partials/functions" as f;
+@use "../partials/variables" as v;
+
+@layer components {
+  .footer {
+    padding: f.rem(24) 0;
+    background-color: var(--dark-background);
+    color: var(--white);
+    text-align: center;
+
+    &__content {
+      @include m.flexbox($align: center, $gap: f.rem(30));
+      flex-direction: column;
+    }
+
+    &__text {
+      font-size: f.rem(14);
+      margin-top: f.rem(8);
+    }
+  }
+}
