@@ -20,15 +20,12 @@ snaky/
 │   ├── index.html            # Page d'accueil (Landing Page)
 │   ├── admin.html            # Interface admin (Dashboard)
 │   ├── components.html       # Page de test des composants
-│   ├── styleguide.html       # Guide de style
 │   ├── static                # Ressource
-│   │   ├── HTML
-│   │   │   ├── base.html     # Structure HTML servant de base 
 │   │   ├── SCSS              # Fichier SASS avant compilation
 │   │   ├── CSS               # Fichier SASS après compilation
 │   │   ├── IMG               # Visuel servant au site
-│   │   ├── JS
-└── README.md             # Ce fichier
+│   │   ├── JS                # Script servant au site
+└── README.md                 # Ce fichier
 ```
 
 ## 🔄 Installation
