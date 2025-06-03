@@ -23,9 +23,10 @@
 
 			<!-- Main -->
 			<main class="m-6">
-					<!-- Card Produit -->
-					<article class="card">
-						<img src="img/burger.jpg" alt="Burger maison" class="card__img" />
+				<!-- Card Produit -->
+				<section class="flex" style="justify-content: center;">
+					<article class="card card-sm m-6">
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
 							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
@@ -34,132 +35,172 @@
 						</div>
 					</article>
 
+					<article class="card card-sm m-6">
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<div class="card__content">
+							<h3 class="card__title">Burger Maison</h3>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<span class="badge badge--new">Nouveau</span>
+							<button class="btn btn--primary">Ajouter</button>
+						</div>
+					</article>
 
-				<hr>
-				<hr>
-				<hr>
+					<article class="card card-sm m-6">
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<div class="card__content">
+							<h3 class="card__title">Burger Maison</h3>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<span class="badge badge--new">Nouveau</span>
+							<button class="btn btn--primary">Ajouter</button>
+						</div>
+					</article>
 
+					<article class="card card-sm m-6">
+						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<div class="card__content">
+							<h3 class="card__title">Burger Maison</h3>
+							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<span class="badge badge--new">Nouveau</span>
+							<button class="btn btn--primary">Ajouter</button>
+						</div>
+					</article>
+				</section>
 
-				<!-- ======== UI / Layout Components ======== -->
-					<!-- Button (Primary / Secondary) -->
+			<hr>
+
+				<!-- Formulaire Simple -->
+				<form class="form m-6">
+					<div class="form__group">
+						<label class="form__label" for="email">Email</label>
+						<input type="email" class="form__input" id="email" placeholder="exemple@snaky.com"/>
+					</div>
+					<div class="form__group">
+						<label class="form__label" for="menu">Choisissez un menu</label>
+						<select class="form__select" id="menu">
+							<option value="classic">Menu Classique</option>
+							<option value="veggie">Menu Végétarien</option>
+						</select>
+					</div>
+					<div style="text-align: center;">
+						<button type="submit" class="btn btn--primary">Valider</button>
+						<button type="button" class="btn btn--primary">Commander</button>
+						<button type="button" class="btn btn--secondary">Voir le menu</button>
+					</div>
+				</form>
+
+			<hr>
+
+				<!-- Pagination -->
+				<div class="m-6" style="text-align: center;">
+					<nav class="pagination">
+						<a href="#" class="pagination__btn">&laquo;</a>
+						<a href="#" class="pagination__btn">1</a>
+						<a href="#" class="pagination__btn pagination--is-active">22</a>
+						<a href="#" class="pagination__btn">333</a>
+						<a href="#" class="pagination__btn">&raquo;</a>
+					</nav>
+				</div>
+
+			<hr>
+
+				<!-- Button (Primary / Secondary) -->
+				<div class="m-6" style="text-align: center;">
 					<button class="btn btn--primary">Commander</button>
 					<button class="btn btn--secondary">Voir le menu</button>
+				</div>
 
-				<hr>
+			<hr>
 
-					<!-- Alertes (Success / Info) -->
-					<div class="alert alert--success">Commande validée avec succès !</div>
-					<div class="alert alert--info">Un nouveau burger est disponible.</div>
-
-				<hr>
-
-					<!-- Checkbox / Radio -->
-					<div class="form-group">
-						<label class="checkbox">
-							<input type="checkbox" class="checkbox__input" />
-							<span class="checkbox__label">Option végétarienne</span>
-						</label>
+				<!-- Alert -->
+				<section id="alert" class="m-6">
+					<div class="container flex">
+						<article class="alert">
+							<button class="delete" onclick="closeAlert(this)">×</button>
+							<p>
+								Un nouveau burger est disponible.
+							</p>
+						</article>
 					</div>
-					<div class="form-group">
-						<label class="radio">
-							<input type="radio" name="menu" class="radio__input" />
-							<span class="radio__label">Menu Classique</span>
-						</label>
-					</div>
+				</section>
 
-				<hr>
+			<hr>
 
-					<!-- Badge (ex : nouveauté produit) -->
-					<span class="badge badge--new" title="">Nouveau</span>
-					<span class="badge badge--promo" title="">Promo</span>
+			<!-- =========================================================================== -->
 
-
-				<hr>
-				<hr>
-				<hr>
-
-
-				<!-- =========== Form Components ============ -->
-					<!-- Formulaire Simple -->
-					<form class="form m-6">
-						<div class="form__group">
-							<label class="form__label" for="email">Email</label>
-							<input type="email" class="form__input" id="email" placeholder="exemple@snaky.com"/>
+				<section style="display: none;">
+					<hr>
+					<hr>
+					<hr>
+		
+					<!-- ======== UI / Layout Components ======== -->	
+						<!-- Checkbox / Radio -->
+						<div class="form-group">
+							<label class="checkbox">
+								<input type="checkbox" class="checkbox__input" />
+								<span class="checkbox__label">Option végétarienne</span>
+							</label>
 						</div>
-						<div class="form__group">
-							<label class="form__label" for="menu">Choisissez un menu</label>
-							<select class="form__select" id="menu">
-								<option value="classic">Menu Classique</option>
-								<option value="veggie">Menu Végétarien</option>
-							</select>
+						<div class="form-group">
+							<label class="radio">
+								<input type="radio" name="menu" class="radio__input" />
+								<span class="radio__label">Menu Classique</span>
+							</label>
 						</div>
-						<div style="text-align: center;">
-							<button type="submit" class="btn btn--primary">Valider</button>
-							<button type="button" class="btn btn--primary">Commander</button>
-							<button type="button" class="btn btn--secondary">Voir le menu</button>
-						</div>
-					</form>
-
-
-				<hr>
-				<hr>
-				<hr>
-
-
-				<!-- ======== JavaScript Components ========= -->
-					<!-- Modale -->
-					<button class="btn btn--primary" data-modal-open>Voir détails</button>
-					<div class="modal">
-						<div class="modal__title">
-							<h2>Exemple de modale</h2>
-						</div>
-
-						<div class="modal__contents">
-							<input type="text" class="form__input" placeholder="Exemple d'input">
-						</div>
-
-						<div class="modal__actions">
-							<button class="btn btn--primary">Valider</button>
-							<button class="btn btn--secondary">Annuler</button>
-						</div>
-					</div>
-
-				<hr>
-
-					<!-- Accordion (FAQ) -->
-					<div class="accordion">
-						<div>
-							<button class="accordion__trigger">Quels sont les horaires ?</button>
-							<div class="accordion__content">
-								<p>Nous sommes ouverts de 11h à 23h tous les jours.</p>
+	
+					<hr>
+	
+						<!-- Badge (ex : nouveauté produit) -->
+						<span class="badge badge--new" title="">Nouveau</span>
+						<span class="badge badge--promo" title="">Promo</span>
+	
+					<hr>
+	
+					<!-- ======== JavaScript Components ========= -->
+						<!-- Modale -->
+						<button class="btn btn--primary" data-modal-open>Voir détails</button>
+						<div class="modal">
+							<div class="modal__title">
+								<h2>Exemple de modale</h2>
+							</div>
+	
+							<div class="modal__contents">
+								<input type="text" class="form__input" placeholder="Exemple d'input">
+							</div>
+	
+							<div class="modal__actions">
+								<button class="btn btn--primary">Valider</button>
+								<button class="btn btn--secondary">Annuler</button>
 							</div>
 						</div>
-
-						<div>
-							<button class="accordion__trigger">Livrez-vous à domicile ?</button>
-							<div class="accordion__content">
-								<p>Oui, dans un rayon de 10 km autour du restaurant.</p>
+	
+					<hr>
+	
+						<!-- Accordion (FAQ) -->
+						<div class="accordion">
+							<div>
+								<button class="accordion__trigger">Quels sont les horaires ?</button>
+								<div class="accordion__content">
+									<p>Nous sommes ouverts de 11h à 23h tous les jours.</p>
+								</div>
+							</div>
+	
+							<div>
+								<button class="accordion__trigger">Livrez-vous à domicile ?</button>
+								<div class="accordion__content">
+									<p>Oui, dans un rayon de 10 km autour du restaurant.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-
-				<hr>
-
-					<!-- Pagination -->
-					<div class="m-6" style="text-align: center;">
-						<nav class="pagination">
-							<a href="#" class="pagination__btn">&laquo;</a>
-							<a href="#" class="pagination__btn">1</a>
-							<a href="#" class="pagination__btn pagination--is-active">22</a>
-							<a href="#" class="pagination__btn">333</a>
-							<a href="#" class="pagination__btn">&raquo;</a>
-						</nav>
-					</div>
-				<!-- ======================================== -->
+				</section>
 			</main>
 
 			<!-- Footer -->
 			<footer class="footer">
+				<div id="scripts" style="display: none;">
+					<script src="/static/JS/alert.js"></script>
+					<script src="/static/JS/toggle-dark-mode.js"></script>
+				</div>
+
 				<div class="footer__content">
 					<span class="footer__text">&copy; 2025 Snaky. Tous droits réservés.</span>
 				</div>
