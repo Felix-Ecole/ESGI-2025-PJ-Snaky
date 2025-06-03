@@ -6,11 +6,13 @@
   .form {
     width: 100%;
     max-width: f.rem(400);
-    margin: 0 auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
     padding: f.rem(16);
     background-color: var(--white);
     border-radius: f.rem(8);
-    box-shadow: 0 0 f.rem(10) rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 f.rem(10)
+      color-mix(in srgb, var(--black) 90%, transparent);
 
     &__group {
       margin-bottom: f.rem(16);
@@ -43,7 +45,7 @@
     }
 
     .btn--primary:hover {
-      background-color: darken(map-get(v.$colors, 'nav'), 10%);
+      background-color: var(--red-hover);
     }
   }
 }

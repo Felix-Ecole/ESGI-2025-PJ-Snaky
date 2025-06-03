@@ -7,22 +7,20 @@
 		<link rel="stylesheet" href="/static/CSS/main.css">
 	</head>
 	<body>
-		<header>
-			<nav class="navbar">
-				<div class="container">
-					<h1>🧀 Snaky</h1>
-					<ul>
-						<li><a href="/">Accueil</a></li>
-						<li><a href="/admin.html">Admin</a></li>
-						<li><a href="/components.html">Composants CSS</a></li>
-					</ul>
-				</div>
-				<button id="theme-toggle">🌙 Mode sombre</button>
+		<header class="header">
+			<nav class="container">
+				<h1>🧀 Snaky</h1>
+				<ul>
+					<li><a href="/">Accueil</a></li>
+					<li><a href="/admin.html">Admin</a></li>
+					<li><a href="/components.html">Composants CSS</a></li>
+				</ul>
 			</nav>
+			<button id="theme-toggle">🌙 Mode sombre</button>
 		</header>
 
 		<main>
-          <form class="form">
+          <form class="form m-6">
 				<div class="form__group">
 					<label class="form__label" for="email">Email</label>
 					<input
@@ -43,6 +41,7 @@
 				<button type="button" class="btn btn--primary">Commander</button>
                 <button type="button" class="btn btn--secondary">Voir le menu</button>
 			</form>
+
 			<section class="m-6">
 				<div class="container flex">
 					<article class="card card-xs">
