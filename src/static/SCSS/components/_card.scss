@@ -10,6 +10,7 @@
         background-color: var(--dark-background);
         color: var(--white);
         border: solid thin var(--dark-background);
+        box-sizing: border-box;
         @include m.flexbox($direction: column, $align: center, $gap: f.rem(10));
 
         .card__content {

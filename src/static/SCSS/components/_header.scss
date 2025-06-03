@@ -3,11 +3,11 @@
 @use "../partials/variables" as v;
 
 @layer components {
-    .navbar {
+    .header {
         padding: f.rem(16) f.rem(32);
         max-width: 100%;
         @include m.flexbox($align: center, $gap: f.rem(30));
-        background-color: var(--nav);
+        background-color: var(--red);
 
         h1 {
             margin: auto 0;

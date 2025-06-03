@@ -13,7 +13,7 @@
   }
 
   .btn--primary {
-    background-color: var(--nav);
+    background-color: var(--red);
     color: var(--white);
 
     &:hover {
@@ -23,11 +23,11 @@
 
   .btn--secondary {
     background-color: var(--white);
-    color: var(--nav);
-    border: 1px solid var(--nav);
+    color: var(--red);
+    border: 1px solid var(--red);
 
     &:hover {
-      background-color: var(--nav);
+      background-color: var(--red);
       color: var(--white);
     }
   }
