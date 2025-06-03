@@ -1,11 +1,9 @@
-@use "../partials/variables" as variables;
-@use "../partials/mixins" as m;
-@use "../partials/functions" as f;
+@use "../partials/variables" as v;
 
 @layer components {
     .container{
         margin: 0 2rem;
-        @each $name, $breakpoint in variables.$breakpoints {
+        @each $name, $breakpoint in v.$breakpoints {
             @media (width > $breakpoint) {
                 margin: 0 2rem;
                 @if($name == 'sm'){

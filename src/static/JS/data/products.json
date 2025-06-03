@@ -1,0 +1,107 @@
+[
+	{
+		"weight": 10.0,
+		"id": "200021000",
+		"title": "Sachet papier P2",
+		"description": "Sachet en papier de type P2, idéal pour emballages alimentaires.",
+		"img": "https://ilis.be/products/200021000.webp"
+	},
+	{
+		"weight": 4.8,
+		"id": "210220000",
+		"title": "Boîte carton Boxy Snaky avec QR code",
+		"description": "Boîte ludique pour enfants avec QR code menant à des jeux exclusifs.",
+		"img": "https://ilis.be/products/210220000.webp"
+	},
+	{
+		"weight": 25.0,
+		"id": "070054000",
+		"title": "Huile de friture 25L en fût",
+		"description": "Fût de 25 litres d'huile de friture, usage professionnel.",
+		"img": "https://ilis.be/products/070054000.webp"
+	},
+	{
+		"weight": 10.0,
+		"id": "010114000",
+		"title": "Sauce andalouse Tigre 10L",
+		"description": "Sauce andalouse Tigre, délicieusement relevée, format seau 10L.",
+		"img": "https://ilis.be/products/010114000.webp"
+	},
+	{
+		"weight": 2.9,
+		"id": "040291000",
+		"title": "Krumyburger halal surgelé",
+		"description": "25 hamburgers halal de 115 g, surgelés pour une conservation optimale.",
+		"img": "https://ilis.be/products/040291000.webp"
+	},
+	{
+		"weight": 2.9,
+		"id": "040286000",
+		"title": "Burger Krumpy extra poulet",
+		"description": "Burger de poulet tendre et épicé avec panure aux graines de soja croquantes.",
+		"img": "https://ilis.be/products/040286000.webp"
+	},
+	{
+		"weight": 3.36,
+		"id": "040392000",
+		"title": "Boulette halal surgelée",
+		"description": "Boulette de viande halal surgelée, idéale pour snacks ou plats préparés.",
+		"img": "https://ilis.be/products/040392000.webp"
+	},
+	{
+		"weight": 1.92,
+		"id": "040748000",
+		"title": "KrokyCroq de poulet pané",
+		"description": "Délicieux bâtonnets de poulet pané, croustillants à souhait.",
+		"img": "https://ilis.be/products/040748000.webp"
+	},
+	{
+		"weight": 2.28,
+		"id": "040174000",
+		"title": "KryspiChix fingers",
+		"description": "Bâtonnets de poulet pané croustillants, prêts à frire ou à cuire au four.",
+		"img": "https://ilis.be/products/040174000.webp"
+	},
+	{
+		"weight": 1.92,
+		"id": "040144000",
+		"title": "Snaky Balls de poulet",
+		"description": "Boules de poulet pané croustillant, idéales pour l'apéritif ou les menus enfants.",
+		"img": "https://ilis.be/products/040144000.webp"
+	},
+	{
+		"weight": 4.8,
+		"id": "040739000",
+		"title": "Cervelas maxi halal surgelé",
+		"description": "24 cervelas halal maxi format, 200 g chacun, parfaits pour snack ou grill.",
+		"img": "https://ilis.be/products/040739000.webp"
+	},
+	{
+		"weight": 3.15,
+		"id": "040561000",
+		"title": "Brochette ardennaise surgelée",
+		"description": "30 brochettes ardennaises surgelées de 105 g, prêtes à cuire.",
+		"img": "https://ilis.be/products/040561000.webp"
+	},
+	{
+		"weight": 1.0,
+		"id": "013233000",
+		"title": "Brochette Schaslick surgelée 5x4",
+		"description": "20 brochettes Schaslick surgelées, 200 g par unité, viande marinée.",
+		"img": "https://ilis.be/products/013233000.webp"
+	},
+	{
+		"weight": 0.7,
+		"id": "013232000",
+		"title": "Brochette Schaslick surgelée 140g",
+		"description": "Brochette individuelle de 140 g avec viande marinée, prête à cuire.",
+		"img": "https://ilis.be/products/013232000.webp"
+	},
+	{
+		"weight": 5.33,
+		"id": "180918000",
+		"title": "Brochettes fraîches Swann 41x130g",
+		"description": "Brochettes fraîches Swann, 41 pièces de 130 g chacune, pour barbecue ou cuisine pro.",
+		"img": "https://ilis.be/products/180918000.webp"
+	}
+]

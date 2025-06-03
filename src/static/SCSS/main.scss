@@ -2,7 +2,11 @@
 @use "partials/globals";
 @use "partials/utilities";
 
-@use "components/navbar";
+@use "components/accordion";
+@use "components/alert";
 @use "components/card";
 @use "components/container";
-@use "components/alert";
+@use "components/modal";
+@use "components/navbar";
+@use "components/pagination";
+

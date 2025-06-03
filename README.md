@@ -20,16 +20,12 @@ snaky/
 │   ├── index.html            # Page d'accueil (Landing Page)
 │   ├── admin.html            # Interface admin (Dashboard)
 │   ├── components.html       # Page de test des composants
-│   ├── styleguide.html       # Guide de style
 │   ├── static                # Ressource
-│   │   ├── HTML
-│   │   │   ├── base.html     # Structure HTML servant de base 
 │   │   ├── SCSS              # Fichier SASS avant compilation
 │   │   ├── CSS               # Fichier SASS après compilation
 │   │   ├── IMG               # Visuel servant au site
-│   │   │   ├── snaky.be      # Visuel provenant de https://snaky.be
-│   │   ├── JS
-└── README.md             # Ce fichier
+│   │   ├── JS                # Script servant au site
+└── README.md                 # Ce fichier
 ```
 
 ## 🔄 Installation
@@ -37,8 +33,8 @@ snaky/
 1. Clonez le dépôt :
 
 ```bash
-git clone https://github.com/votre-compte/snaky.git
-cd snaky
+git clone https://github.com/Felix-Ecole/ESGI-2025-PJ-Snaky
+cd ESGI-2025-PJ-Snaky
 ```
 
 2. Installez les dépendances :
@@ -47,21 +43,22 @@ cd snaky
 npm install
 ```
 
-3. Lancez le serveur local :
+3. Lancez le serveur de code :
 
 ```bash
 npm run dev
 ```
 
-4. Compilez le SCSS en CSS si besoin :
+4. Lancez le serveur de style :
 
 ```bash
-npm run build
+npm run build # Compilation du SCSS en CSS pour la production
+npm run watch # Serveur d'observation des changements du SCSS
 ```
 
 ---
 
 ## 📖 Crédit
-- **Félix LHOSTE** (README, Structure, Techno, Design...)
-- **Hamza MEKSEM** (Composant, SASS)
-- **Tristan PHILIPON** (Composant, SASS)
+- **Félix LHOSTE** (README, Structure, Techno, Composant SASS)
+- **Hamza MEKSEM** (HTML, Style, Composant SASS)
+- **Tristan PHILIPON** (HTML, Style, Composant SASS)
