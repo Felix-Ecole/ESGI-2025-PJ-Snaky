@@ -1,8 +1,12 @@
 @use "partials/layers";
 @use "partials/globals";
+@use "partials/utilities";
 
 @use "components/accordion";
+@use "components/alert";
+@use "components/card";
 @use "components/container";
 @use "components/modal";
 @use "components/navbar";
 @use "components/pagination";
+
