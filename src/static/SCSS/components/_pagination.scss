@@ -4,7 +4,7 @@
 
 @layer components {
     .pagination {
-        display: flex;
+        display: inline-flex;
 
         &__btn {
             height: f.rem(24); min-width: f.rem(24); line-height: f.rem(24);

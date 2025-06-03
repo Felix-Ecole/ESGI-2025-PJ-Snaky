@@ -4,22 +4,27 @@
 
 @layer components {
     .alert {
-        margin: auto 0;
-        padding: f.rem(20);
-        width: f.rem(600);
-        position: relative;
-        border: solid thin;
+        max-width: 50vw;
         border-radius: f.rem(15);
+        padding: f.rem(15) f.rem(30);
+        border: f.rem(1) solid black;
+        background-color: var(--white);
+        position: fixed; bottom: f.rem(20); right: f.rem(20);
 
         .delete {
-            @include m.resetButton;
-            position: absolute;
-            top: f.rem(10);
-            right: f.rem(10);
-            border: solid thin;
             border-radius: 50%;
-            width: f.rem(26);
-            height: f.rem(26);
+            @include m.resetButton;
+            border: f.rem(1) solid black;
+            height: f.rem(20); width: f.rem(20); line-height: 0;
+            position: absolute; top: f.rem(10); right: f.rem(10);
+        }
+
+        .delete:hover {
+            background-color: var(--white-hover);
+        }
+
+        & p {
+            margin-right: f.rem(10);
         }
     }
 }

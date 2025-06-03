@@ -20,15 +20,10 @@
 		</header>
 
 		<main>
-          <form class="form m-6">
+			<form id="form" class="form m-6">
 				<div class="form__group">
 					<label class="form__label" for="email">Email</label>
-					<input
-						type="email"
-						class="form__input"
-						id="email"
-						placeholder="exemple@snaky.com"
-					/>
+					<input type="email" class="form__input" id="email" placeholder="exemple@snaky.com"/>
 				</div>
 				<div class="form__group">
 					<label class="form__label" for="menu">Choisissez un menu</label>
@@ -37,48 +32,74 @@
 						<option value="veggie">Menu Végétarien</option>
 					</select>
 				</div>
-				<button type="submit" class="btn btn--primary">Valider</button>
-				<button type="button" class="btn btn--primary">Commander</button>
-                <button type="button" class="btn btn--secondary">Voir le menu</button>
+				<div style="text-align: center;">
+					<button type="submit" class="btn btn--primary">Valider</button>
+					<button type="button" class="btn btn--primary">Commander</button>
+					<button type="button" class="btn btn--secondary">Voir le menu</button>
+				</div>
 			</form>
 
-			<section class="m-6">
+			<section id="card" class="m-6">
 				<div class="container flex">
 					<article class="card card-xs">
-						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<img
+							src="/static/IMG/burger.webp"
+							alt="Burger maison"
+							class="card__img"
+						/>
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<p class="card__desc">
+								Steak 150g, cheddar, sauce secrète
+							</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
 					</article>
 
 					<article class="card card-sm">
-						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<img
+							src="/static/IMG/burger.webp"
+							alt="Burger maison"
+							class="card__img"
+						/>
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<p class="card__desc">
+								Steak 150g, cheddar, sauce secrète
+							</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
 					</article>
 
 					<article class="card card-md">
-						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<img
+							src="/static/IMG/burger.webp"
+							alt="Burger maison"
+							class="card__img"
+						/>
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<p class="card__desc">
+								Steak 150g, cheddar, sauce secrète
+							</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
 					</article>
 
 					<article class="card card-lg">
-						<img src="/static/IMG/burger.webp" alt="Burger maison" class="card__img">
+						<img
+							src="/static/IMG/burger.webp"
+							alt="Burger maison"
+							class="card__img"
+						/>
 						<div class="card__content">
 							<h3 class="card__title">Burger Maison</h3>
-							<p class="card__desc">Steak 150g, cheddar, sauce secrète</p>
+							<p class="card__desc">
+								Steak 150g, cheddar, sauce secrète
+							</p>
 							<span class="badge badge--new">Nouveau</span>
 							<button class="btn btn--primary">Ajouter</button>
 						</div>
@@ -86,30 +107,13 @@
 				</div>
 			</section>
 
-			<section class="m-6">
+			<section id="alert" class="m-6">
 				<div class="container flex">
 					<article class="alert">
-						<button class="delete">X</button>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor.
-						<strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
-						nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam,
-						et dictum <a>felis venenatis</a> efficitur.
-					</article>
-
-					<article class="alert">
-						<button class="delete">X</button>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor.
-						<strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
-						nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam,
-						et dictum <a>felis venenatis</a> efficitur.
-					</article>
-
-					<article class="alert">
-						<button class="delete">X</button>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit lorem ipsum dolor.
-						<strong>Pellentesque risus mi</strong>, tempus quis placerat ut, porta nec
-						nulla. Vestibulum rhoncus ac ex sit amet fringilla. Nullam gravida purus diam,
-						et dictum <a>felis venenatis</a> efficitur.
+						<button class="delete">×</button>
+						<p>
+							Adipisicing incididunt irure quis occaecat sint ipsum in aliqua proident veniam aliquip sint amet.
+						</p>
 					</article>
 				</div>
 			</section>
@@ -119,13 +123,9 @@
 			<div id="scripts" style="display: none;">
 				<script src="/static/JS/toggle-dark-mode.js"></script>
 			</div>
-			
-				<div class="footer__content">
-					<p class="footer__text">
-						&copy; 2025 Snaky. Tous droits réservés.
-					</p>
-				</div>
-			
-		</footer>
+
+			<div class="footer__content">
+				<span class="footer__text">&copy; 2025 Snaky. Tous droits réservés.</span>
+			</div>
 	</body>
 </html>
