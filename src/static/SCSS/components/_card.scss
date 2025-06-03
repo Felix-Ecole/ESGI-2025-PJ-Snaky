@@ -1,0 +1,41 @@
+@use "../partials/functions" as f;
+@use "../partials/mixins" as m;
+@use "../partials/variables" as v;
+
+@layer components {
+    .card {
+        margin: auto 0;
+        border-radius: f.rem(15);
+        overflow: hidden;
+        background-color: var(--dark-background);
+        color: var(--white);
+        border: solid thin var(--dark-background);
+        @include m.flexbox($direction: column, $align: center, $gap: f.rem(10));
+
+        .card__content {
+            @include m.flexbox($direction: column, $align: center, $gap: f.rem(10));
+        }
+
+        img {
+            max-width: inherit;
+            object-fit: cover;
+        }
+    }
+
+    @each $name, $value in v.$sizes {
+        .card-#{$name} {
+            padding: f.rem($value);
+            width: f.rem($value * 16);
+            & > img {
+                width: inherit;
+                margin-top: -#{f.rem($value)};
+                margin-left: -#{f.rem($value)};
+                margin-right: -#{f.rem($value)};
+            }
+        }
+    }
+
+    .flex {
+        @include m.flexbox($gap: f.rem(20));
+    }
+}

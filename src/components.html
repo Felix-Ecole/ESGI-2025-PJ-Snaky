@@ -18,6 +18,8 @@
 				</nav>
 			</header>
 
+		<hr>
+
 			<!-- Footer -->
 			<footer class="footer">
 				<div class="footer__content">
@@ -26,6 +28,8 @@
 					</p>
 				</div>
 			</footer>
+
+		<hr>
 
 			<!-- Card Produit -->
 			<article class="card">
@@ -39,15 +43,23 @@
 			</article>
 
 
+		<hr>
+		<hr>
+		<hr>
+
 
 		<!-- ======== UI / Layout Components ======== -->
 			<!-- Button (Primary / Secondary) -->
 			<button class="btn btn--primary">Commander</button>
 			<button class="btn btn--secondary">Voir le menu</button>
 
+		<hr>
+
 			<!-- Alertes (Success / Info) -->
 			<div class="alert alert--success">Commande validée avec succès !</div>
 			<div class="alert alert--info">Un nouveau burger est disponible.</div>
+
+		<hr>
 
 			<!-- Checkbox / Radio -->
 			<div class="form-group">
@@ -63,10 +75,16 @@
 				</label>
 			</div>
 
+		<hr>
+
 			<!-- Badge (ex : nouveauté produit) -->
 			<span class="badge badge--new" title="">Nouveau</span>
 			<span class="badge badge--promo" title="">Promo</span>
 
+
+		<hr>
+		<hr>
+		<hr>
 
 
 		<!-- =========== Form Components ============ -->
@@ -92,50 +110,57 @@
 			</form>
 
 
+		<hr>
+		<hr>
+		<hr>
+
 
 		<!-- ======== JavaScript Components ========= -->
 			<!-- Modale -->
 			<button class="btn btn--primary" data-modal-open>Voir détails</button>
-			<div class="modal" id="modal">
-				<div class="modal__overlay" data-modal-close></div>
-				<div class="modal__content">
-					<button class="modal__close" data-modal-close>&times;</button>
-					<h2 class="modal__title">Détails du produit</h2>
-					<p class="modal__text">Ingrédients, calories, etc.</p>
+			<div class="modal">
+				<div class="modal__title">
+					<h2>Exemple de modale</h2>
+				</div>
+
+				<div class="modal__contents">
+					<input type="text" class="form__input" placeholder="Exemple d'input">
+				</div>
+
+				<div class="modal__actions">
+					<button class="btn btn--primary">Valider</button>
+					<button class="btn btn--secondary">Annuler</button>
 				</div>
 			</div>
 
+		<hr>
+
 			<!-- Accordion (FAQ) -->
 			<div class="accordion">
-				<div class="accordion__item">
-					<button class="accordion__trigger">
-						Quels sont les horaires ?
-					</button>
+				<div>
+					<button class="accordion__trigger">Quels sont les horaires ?</button>
 					<div class="accordion__content">
 						<p>Nous sommes ouverts de 11h à 23h tous les jours.</p>
 					</div>
 				</div>
-				<div class="accordion__item">
-					<button class="accordion__trigger">
-						Livrez-vous à domicile ?
-					</button>
+
+				<div>
+					<button class="accordion__trigger">Livrez-vous à domicile ?</button>
 					<div class="accordion__content">
 						<p>Oui, dans un rayon de 10 km autour du restaurant.</p>
 					</div>
 				</div>
 			</div>
 
+		<hr>
+
 			<!-- Pagination -->
 			<nav class="pagination">
-				<button class="pagination__btn pagination__btn--prev">
-					&laquo;
-				</button>
-				<button class="pagination__btn is-active">1</button>
-				<button class="pagination__btn">2</button>
-				<button class="pagination__btn">3</button>
-				<button class="pagination__btn pagination__btn--next">
-					&raquo;
-				</button>
+				<a href="#" class="pagination__btn">&laquo;</a>
+				<a href="#" class="pagination__btn">1</a>
+				<a href="#" class="pagination__btn pagination--is-active">22</a>
+				<a href="#" class="pagination__btn">333</a>
+				<a href="#" class="pagination__btn">&raquo;</a>
 			</nav>
 		<!-- ======================================== -->
 	</body>
